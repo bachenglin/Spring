@@ -1,0 +1,11 @@
+com/demo/controller/UserContoller.class
+com/demo/model/User.class
+com/demo/dao/UserDetailsDaoImp.class
+com/demo/dao/UserDetailsDao.class
+com/demo/service/UserDetailsServiceImp.class
+com/demo/config/WebSecurityConfig.class
+com/demo/model/Authorities.class
+com/demo/config/SecurityWebApplicationInitializer.class
+com/demo/config/MvcWebApplicationInitializer.class
+com/demo/config/WebConfig.class
+com/demo/config/AppConfig.class

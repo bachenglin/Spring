@@ -1,0 +1,39 @@
+package com.demo;
+
+import java.time.Duration;
+import java.util.Arrays;
+import java.util.List;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
+
+import reactor.core.publisher.Flux;
+import reactor.core.publisher.Mono;
+
+@SpringBootTest
+class ApplicationTests {
+
+	@Test
+	void contextLoads() {
+	}
+
+	@Test
+	public void monoExample() throws InterruptedException {
+		Mono<String> stubMonoWithADelay = Mono.just("Nanda").delayElement(Duration.ofSeconds(2));
+		stubMonoWithADelay.subscribe(System.out::println);
+		Thread.sleep(4000);
+		stubMonoWithADelay.subscribe(new SystemOutConsumer());
+		stubMonoWithADelay.subscribe(new WelcomeConsumer());
+	}
+
+	private static List<String> streamOfNames = Arrays.asList("John", "Adam", "Joe", "Doe", "Jane");
+
+	@Test
+	public void fluxStreamWithDelay() throws InterruptedException {
+		Flux<String> stubFluxWithNames = Flux.fromIterable(streamOfNames).delayElements(Duration.ofMillis(1000));
+		stubFluxWithNames.subscribe(new SystemOutConsumer());
+		stubFluxWithNames.subscribe(new WelcomeConsumer());
+		Thread.sleep(10000);
+	}
+
+}

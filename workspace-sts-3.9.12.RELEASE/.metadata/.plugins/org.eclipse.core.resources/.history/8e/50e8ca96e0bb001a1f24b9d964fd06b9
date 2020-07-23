@@ -1,0 +1,14 @@
+package com.demo.main;
+
+import javax.xml.ws.Endpoint;
+
+import com.demo.impl.HelloImpl;
+
+public class App {
+
+	public static void main(String[] args) {
+		Endpoint.publish("http://localhost:4567/soapdemos/hellosoap", new HelloImpl());
+		System.out.println("SOAP service is UP!")
+	}
+
+}

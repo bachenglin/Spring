@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="demo-eureka-tollrate-service"/>
+<aop-project name="demo-zuul-apiproxy"/>
+<aop-project name="demo-eureka-fastpass-service"/>
+<aop-project name="demo-eureka-fastpass-console">
+<aspect-definition advice-class-name="com.netflix.hystrix.contrib.javanica.aop.aspectj.HystrixCommandAspect" advice-method-name="methodsAnnotatedWithHystrixCommand(org.aspectj.lang.ProceedingJoinPoint)" advice-type="AROUND" aspect-end-line-number="-1" aspect-name="hystrixCommandAspect" aspect-start-line-number="-1" factory-id="org.springframework.ide.eclipse.aop.core.annotationAspectDefinitionElementFactory" file="/demo-eureka-fastpass-console/src/main/java/eureka/demo/DemoEurekaFastpassConsoleApplication.java" pointcut-expression="hystrixCommandAnnotationPointcut() || hystrixCollapserAnnotationPointcut()" proxy-target-class="false">
+<aop-reference advice-type="AROUND" bean="1:BeansModel|2:demo-eureka-fastpass-console|3:java:eureka.demo.DemoEurekaFastpassConsoleApplication|8:fastPassController:17" bean-file="/demo-eureka-fastpass-console/src/main/java/eureka/demo/FastPassController.java" bean-start-line="17" factory-id="org.springframework.ide.eclipse.aop.core.aopReferenceElementFactory" file="/demo-eureka-fastpass-console/src/main/java/eureka/demo/DemoEurekaFastpassConsoleApplication.java" source="=demo-eureka-fastpass-console/\/Users\/bachenglin\/.m2\/repository\/com\/netflix\/hystrix\/hystrix-javanica\/1.5.12\/hystrix-javanica-1.5.12.jar=/maven.pomderived=/true=/=/maven.pomderived=/true=/=/maven.groupId=/com.netflix.hystrix=/=/maven.artifactId=/hystrix-javanica=/=/maven.version=/1.5.12=/=/maven.scope=/compile=/&lt;com.netflix.hystrix.contrib.javanica.aop.aspectj(HystrixCommandAspect.class[HystrixCommandAspect~methodsAnnotatedWithHystrixCommand~Lorg.aspectj.lang.ProceedingJoinPoint;" source-start-line="-1" target="=demo-eureka-fastpass-console/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;eureka.demo{FastPassController.java[FastPassController~getFastPassCustomerDetails~QString;~QModel;" target-start-line="30"/>
+</aspect-definition>
+</aop-project>
+<aop-project name="demo-eureka-server"/>
+<aop-project name="demo-eureka-tollrate-billboard"/>
+<aop-project name="demo-eureka-toll-intake"/>
+<aop-project name="demo-hystrix-dashboard"/>
+</aop-reference-model>

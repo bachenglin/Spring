@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+</script>
+<script >
+function f1()
+{
+	var x = "<h1 style=color:blue;>igar</h1>"
+	var y = $("<p></p>").text("Yonghao Duan");
+	var z = document.createElement("p");
+	z.innerHTML="ABCDEFG";
+	//appending the elements
+	$("body").append(x,y,z);
+}
+</script>
+</head>
+<body>
+
+<h1 style="color: green">Hello folks</h1>
+<p>Welcome to Marlabs</p>
+<button onclick = "f1()">Click</button>
+</body>
+</html>

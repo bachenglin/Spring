@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="/Users/bachenglin/Documents/workspace-sts-3.9.12.RELEASE"/>
+			<item value="/Users/bachenglin/Documents/workspace-sts-3.9.12.RELEASE/spring-security-hibernate-integration-example"/>
+			<item value="/Users/bachenglin/Documents/workspace-sts-3.9.12.RELEASE/Springmvc-hbm-xml/pom.xml"/>
+			<item value="/Users/bachenglin/Documents/workspace-sts-3.9.12.RELEASE/SpringMvcJdbcTemplate"/>
+			<item value="/Users/bachenglin/Documents/workspace-sts-3.9.12.RELEASE/11"/>
+			<item value="/Users/bachenglin/Documents/workspace-sts-3.9.12.RELEASE/springmvc-hbm-xml"/>
+			<item value="/Users/bachenglin/Documents/workspace-sts-3.9.12.RELEASE/springmvc-hbm-xml/readme.md"/>
+			<item value="/Users/bachenglin/Documents/workspace-sts-3.9.12.RELEASE/com.single.table/src/main/java/com/inheititance/com/single/table/App.java"/>
+			<item value="/Users/bachenglin/Documents/workspace-sts-3.9.12.RELEASE/many.to.one.or.many/src/main/java/Emp-hbm.xml"/>
+			<item value="/Users/bachenglin/Documents/workspace-sts-3.9.12.RELEASE/many.to.one.or.many/src/main/java/com/hibernate/many/to/one/or/many/App.java"/>
+			<item value="/Users/bachenglin/Documents/workspace-sts-3.9.12.RELEASE/one.to.one/src/main/java/hibernate/one/to/one/App.java"/>
+			<item value="/Users/bachenglin/Documents/workspace-sts-3.9.12.RELEASE/com.hibpractice/src/main/java/com/ba/com/hibpractice/App.java"/>
+			<item value="/Users/bachenglin/Documents/workspace-sts-3.9.12.RELEASE/com.hibernate"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="All Catalogs"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+			<item value="com.spring.active.active"/>
+			<item value="com.demo"/>
+			<item value="springmvc_rest.springmvc_rest"/>
+			<item value="springmvc_hbm_xml.springmvc_hbm_xml"/>
+		</list>
+		<list key="groupId">
+			<item value="com.spring.active"/>
+			<item value="com.spring.security"/>
+			<item value="springmvc-rest"/>
+			<item value="springmvc-hbm-xml"/>
+		</list>
+		<list key="artifactId">
+			<item value="active"/>
+			<item value="spring-security-hbm-example"/>
+			<item value="springmvc-rest"/>
+			<item value="springmvc-hbm-xml"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+		<list key="ciManagementUrl">
+		</list>
+		<list key="ciManagementSystem">
+		</list>
+		<list key="issueManagementSystem">
+		</list>
+		<list key="issueManagementUrl">
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.dialogs.MavenRepositorySearchDialog">
+		<item key="width" value="480"/>
+		<item key="height" value="490"/>
+		<item key="x" value="732"/>
+		<item key="y" value="112"/>
+	</section>
+	<section name="wizardPage">
+		<list key="groupId">
+			<item value="spring-security"/>
+			<item value="rest-demo"/>
+			<item value="hello-springmvc"/>
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+			<item value="spring-security"/>
+			<item value="rest-demo"/>
+			<item value="hello-springmvc"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="/Users/bachenglin/Documents/workspace-sts-3.9.12.RELEASE/aws-s3-examples"/>
+			<item value="/Users/bachenglin/Documents/workspace-sts-3.9.12.RELEASE/spring-boot-jfree-example"/>
+			<item value="/Users/bachenglin/Documents/workspace-sts-3.9.12.RELEASE/spring-boot-jasper-report"/>
+			<item value="/Users/bachenglin/Documents/workspace-sts-3.9.12.RELEASE/ITextExample"/>
+			<item value="/Users/bachenglin/Documents/workspace-sts-3.9.12.RELEASE/Reports-Email"/>
+			<item value="/Users/bachenglin/Documents/workspace-sts-3.9.12.RELEASE/spring-webflux-demo"/>
+			<item value="/Users/bachenglin/Documents/workspace-sts-3.9.12.RELEASE/mockito-demo"/>
+			<item value="/Users/bachenglin/Documents/workspace-sts-3.9.12.RELEASE/junit4-mockito-examples"/>
+			<item value="/Users/bachenglin/Documents/workspace-sts-3.9.12.RELEASE/Kafka-SpringBoot"/>
+			<item value="/Users/bachenglin/Documents/workspace-sts-3.9.12.RELEASE/message-scheduling"/>
+			<item value="/Users/bachenglin/Documents/workspace-sts-3.9.12.RELEASE/event-subscriber"/>
+			<item value="/Users/bachenglin/Documents/workspace-sts-3.9.12.RELEASE/event-publisher"/>
+			<item value="/Users/bachenglin/Documents/workspace-sts-3.9.12.RELEASE/selective-event-consumer"/>
+			<item value="/Users/bachenglin/Documents/workspace-sts-3.9.12.RELEASE/jms-demo"/>
+			<item value="/Users/bachenglin/Documents/workspace-sts-3.9.12.RELEASE/spring-boot-saml-demo"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+</section>

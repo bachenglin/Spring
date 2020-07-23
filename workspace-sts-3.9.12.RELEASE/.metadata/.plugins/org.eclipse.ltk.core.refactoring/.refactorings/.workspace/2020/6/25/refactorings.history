@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Delete resource &apos;spring-boot-ldap-demo&apos;" deleteContents="false" description="Delete resource &apos;spring-boot-ldap-demo&apos;" element1="/spring-boot-ldap-demo" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1592239544429"/>&#x0A;<refactoring comment="Delete 4 resources" deleteContents="false" description="Delete 4 resources" element1="/spring-sample" element2="/spring-sample-java-conf" element3="/spring-sample-xml" element4="/spring-sample-xml-ann" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="4" stamp="1592324886542"/>
+</session>

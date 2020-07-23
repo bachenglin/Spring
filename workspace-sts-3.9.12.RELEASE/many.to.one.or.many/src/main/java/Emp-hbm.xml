@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+    
+<hibernate-mapping>
+<class name="com.hibernate.many.to.one.or.many.Emp" table="may_130">
+<id name="id">
+<generator class="increment"></generator>
+</id>
+<property name="name" column="ename"></property>
+<many-to-one name="phoneno"></many-to-one>
+</class>
+<class name="com.hibernate.many.to.one.or.many.PhoneNumber" table="mayph_130">
+<id name="pid">
+<generator class="increment"></generator>
+</id>
+<property name="network" column="phone_network"></property>
+<property name="phonenumber" column="p_phonenumber"></property>
+</class>
+</hibernate-mapping>
+   
+  

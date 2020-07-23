@@ -1,0 +1,5 @@
+server.port = 8086
+spring.application.name = toll-api-proxy
+# Scenario 1
+zuul.routes.trproxy.url = http://localhost:51052
+zuul.routes.trproxy.path = /trproxy/**

@@ -1,0 +1,5 @@
+package eureka.demo;
+
+public class TollPublisher {
+
+}

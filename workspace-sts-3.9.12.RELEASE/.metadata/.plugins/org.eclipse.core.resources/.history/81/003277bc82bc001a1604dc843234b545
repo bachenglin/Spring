@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body onload="registerButton();">
+
+<div>
+<button id="subscribe-button" >Get Latest IBM Price</button> <ul id="display"></ul>
+</div>
+</body>
+</html>

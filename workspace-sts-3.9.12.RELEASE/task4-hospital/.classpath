@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.USER_LIBRARY/Apache Tomcat jars"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry exported="true" kind="lib" path="/Users/bachenglin/Desktop/javax.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/bachenglin/Desktop/javax.servlet.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/bachenglin/Desktop/javax.servlet-3.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/bachenglin/Desktop/jasper.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/bachenglin/Desktop/java培训/mysql-connector-java-5.1.49/mysql-connector-java-5.1.49.jar"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>

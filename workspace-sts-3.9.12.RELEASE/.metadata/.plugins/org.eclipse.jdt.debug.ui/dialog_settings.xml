@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item key="org.eclipse.jdt.debug.ui.jre_preference_page_context.columnWidth0" value="140"/>
+	<item key="org.eclipse.jdt.debug.ui.jre_preference_page_context.columnWidth1" value="362"/>
+	<item key="org.eclipse.jdt.debug.ui.jre_preference_page_context.columnWidth2" value="73"/>
+	<item key="org.eclipse.jdt.debug.ui.jre_preference_page_context.sortColumn" value="1"/>
+	<section name="org.eclipse.jdt.debug.ui.MAIN_METHOD_SELECTION_DIALOG">
+		<item key="ShowStatusLine" value="true"/>
+		<item key="History" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0A;&lt;History&gt;&#x0A;&lt;historyRootNode&gt;&#x0A;&lt;infoNode&gt;=CoreJAVA/src&amp;lt;InnerClass{Popcorn.java[Popcorn~main~\[QString;[!2&lt;/infoNode&gt;&#x0A;&lt;infoNode&gt;=CoreJAVA/src&amp;lt;InnerClass{Popcorn.java[Popcorn&lt;/infoNode&gt;&#x0A;&lt;infoNode&gt;=JDBCPrograms/src&amp;lt;{BatchUpdatesEx.java[BatchUpdatesEx&lt;/infoNode&gt;&#x0A;&lt;infoNode&gt;=clinic-master/\/Users\/bachenglin\/Documents\/workspace-sts-3.9.12.RELEASE\/clinic-master\/WebContent\/WEB-INF\/lib\/mysql-connector-java-5.1.40.jar&amp;lt;com.mysql.jdbc(DocsConnectionPropsHelper.class[DocsConnectionPropsHelper&lt;/infoNode&gt;&#x0A;&lt;infoNode&gt;=XQuery/\/XQuery\/lib\/saxon9he.jar&amp;lt;net.sf.saxon(Query.class[Query&lt;/infoNode&gt;&#x0A;&lt;infoNode&gt;=SpringJDBCTemplateExample/src\/main\/java&amp;lt;com.demo.main{App.java[App&lt;/infoNode&gt;&#x0A;&lt;infoNode&gt;=springmvc-hbm-xml/\/Users\/bachenglin\/.m2\/repository\/antlr\/antlr\/2.7.7\/antlr-2.7.7.jar&amp;lt;antlr.debug.misc(ASTFrame.class[ASTFrame&lt;/infoNode&gt;&#x0A;&lt;infoNode&gt;=jms-demo/\/Users\/bachenglin\/.m2\/repository\/org\/apache\/activemq\/activemq-all\/5.10.0\/activemq-all-5.10.0.jar&amp;lt;org.jasypt.intf.cli(AlgorithmRegistryCLI.class[AlgorithmRegistryCLI&lt;/infoNode&gt;&#x0A;&lt;infoNode&gt;=selective-event-consumer/\/Users\/bachenglin\/.m2\/repository\/log4j\/log4j\/1.2.17\/log4j-1.2.17.jar&amp;lt;org.apache.log4j.net(JMSSink.class[JMSSink&lt;/infoNode&gt;&#x0A;&lt;/historyRootNode&gt;&#x0A;&lt;/History&gt;"/>
+		<section name="DialogBoundsSettings">
+			<item key="DIALOG_HEIGHT" value="500"/>
+			<item key="DIALOG_WIDTH" value="600"/>
+			<item key="DIALOG_X_ORIGIN" value="-27"/>
+			<item key="DIALOG_Y_ORIGIN" value="33"/>
+			<item key="DIALOG_FONT_NAME" value="1|.AppleSystemUIFont|11.0|0|COCOA|1|.AppleSystemUIFont"/>
+		</section>
+	</section>
+</section>

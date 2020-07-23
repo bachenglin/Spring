@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>jquery-json2html plugin test page</title>
+<script src="http://apps.bdimg.com/libs/jquery/1.9.0/jquery.min.js"></script>
+<script type="text/javascript" src = "js/getjson.js"></script> 	
+<script type="text/javascript" src = "js/create.js"></script> 
+<script type="text/javascript" src = "js/update.js"></script> 
+<script type="text/javascript" src = "js/delete.js"></script> 
+<script type = "text/javascript">
+
+
+
+
+</script>
+</head>
+
+<body>
+
+
+
+<div class = "id0">id: </div>
+<div class = "name0">name: </div>
+<div class = "price0">price: </div>
+<button class = "show0" >click to show the description</button>
+<form name = "create">
+<p>your id
+<input id = "id0" type = "text" ></p>
+<p>your name
+<input id = "name0" type = "text" ></p>
+<p>your price
+<input id = "price0" type = "text" ></p>
+<p>
+<input type="button"  value = "submit" onclick="createData()">
+</p>
+</form>
+<form name = "update">
+<p>your id
+<input id = "id1" type = "text" ></p>
+<p>your name
+<input id = "name1" type = "text" ></p>
+<p>your price
+<input id = "price1" type = "text" ></p>
+<p>
+<input type="button"  value = "submit" onclick="updateData()">
+</p>
+</form>
+<form name = "delete">
+<p>id you want to delete
+<input id = "id2" type = "text" ></p>
+<input type="button"  value = "submit" onclick="deleteData()">
+</form>
+
+<!-- 
+
+
+
+
+
+<form id = "form1" >
+
+<p> your name:
+<input name = "name"  type = "text"></p>
+<p>your price
+<input name = "price" type = "text"></p>
+
+<p><input type="button" value="submit" onclick="create()">
+<p></p>
+
+</form>
+ -->
+</body>
+<script>
+	$('.id0').hide();
+	$('.name0').hide();
+	$('.price0').hide();
+	$('.show0').click(function(){
+		$('.id0').show();
+		$('.name0').show();
+		$('.price0').show();
+	});
+
+		
+	}
+	
+</script>
+
+
+
+</html>

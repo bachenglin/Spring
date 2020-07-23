@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Registration Form</title>
+</head>
+<body>
+<form action="Register" method="post">
+Name : <input type="text" name="uname" required="" pattern="[A-Za-z]+" title="Enter only Characters"><br/><br/>
+Password : <input type="password" name="upass" required="" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z\d].{7,}$" title="Must Contain atleast one UpperCase/LowerCase/Special Character with Specified length(7)"><br/><br/>
+Mailid : <input type="email" name="umail" required="" title="Enter Valid EmailID Format"><br/><br/>
+Mobile Number : <input type="text" name="umobile" required="" pattern="[6789][0-9]{9}" title="Enter only 6/7/8/9 as Starting Digit and Length only 10 Digits"><br/><br/>
+Country :
+<select name="uCountry">
+<option>INDIA</option>
+<option>USA</option>
+<option>CHINA</option>
+<option>UK</option>
+<option>Others</option>
+</select>
+<br/><br/>
+<input type="submit" value="register"/>
+</form>
+</body>
+</html>

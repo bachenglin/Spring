@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+    
+ <hibernate-mapping>
+
+    <class name="com.inheititance.com.concrete.Emp_Concrete" table="may101">
+        <id name="id">
+        
+        <generator class="increment"></generator>
+        </id>
+<property name="name"></property>
+<union-subclass name="com.inheititance.com.concrete.RegEmp_Concrete" table="regmay101">
+<property name = "salary"></property>
+<property name = "bonus"></property>
+</union-subclass >
+<union-subclass name="com.inheititance.com.concrete.ContractRegEmp_Concrete" table="contractmay101">
+<property name = "pay_per_hour"></property>
+<property name = "contract_duration"></property>
+</union-subclass >
+</class>
+
+</hibernate-mapping>  
+   
+   
+   <!-- 
+<hibernate-mapping>
+<class name="com.nagendra.com.hibernate.Emp" table="may111">
+<id name="id" column="eid"></id>
+<property name="name" column="ename"></property>
+<map name="phoneno" table="may111" cascade="all">
+<key column="id"></key>
+<one-to-many class="com.nagendra.com.hibernate.PhoneNumber"/>
+</map>
+</class>
+<class name="com.nagendra.com.hibernate.PhoneNumber" table="mayph_126">
+<id name="pid" column="phone_id"></id>
+<property name="network" column="phone_network"></property>
+<property name="phonenumber" column="p_phonenumber"></property>
+</class>
+</hibernate-mapping>
+
+--> 

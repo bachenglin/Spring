@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+    
+ <hibernate-mapping>
+
+    <class name="hibernate.one.to.one.Emp" table="may110">
+        <id name="id" column="eid"></id>
+<property name="name" column="ename"></property>
+       <one-to-one name="phoneno" cascade = "all"></one-to-one>
+    </class>
+    
+    <class name="hibernate.one.to.one.PhoneNumber" table="mayph_110">
+<id name="pid" column="phone_id"></id>
+<property name="network" column="phone_network"></property>
+<property name="phonenumber" column="p_phonenumber"></property>
+<one-to-one name="emp"></one-to-one>
+</class>
+
+</hibernate-mapping>  
+   
+   
+   <!-- 
+<hibernate-mapping>
+<class name="com.nagendra.com.hibernate.Emp" table="may111">
+<id name="id" column="eid"></id>
+<property name="name" column="ename"></property>
+<map name="phoneno" table="may111" cascade="all">
+<key column="id"></key>
+<one-to-many class="com.nagendra.com.hibernate.PhoneNumber"/>
+</map>
+</class>
+<class name="com.nagendra.com.hibernate.PhoneNumber" table="mayph_126">
+<id name="pid" column="phone_id"></id>
+<property name="network" column="phone_network"></property>
+<property name="phonenumber" column="p_phonenumber"></property>
+</class>
+</hibernate-mapping>
+
+--> 

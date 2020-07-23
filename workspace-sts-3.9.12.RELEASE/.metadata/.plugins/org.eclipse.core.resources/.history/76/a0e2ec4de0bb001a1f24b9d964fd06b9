@@ -1,0 +1,5 @@
+package com.demo.impl;
+
+public class HelloImpl {
+
+}

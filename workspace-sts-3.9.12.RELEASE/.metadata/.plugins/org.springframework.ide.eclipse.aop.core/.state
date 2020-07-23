@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="spring-boot-jasper-report"/>
+<aop-project name="spring-webflux-demo"/>
+<aop-project name="com.reactive"/>
+<aop-project name="mongodb.reactive"/>
+<aop-project name="spring-boot-jfree-example"/>
+</aop-reference-model>

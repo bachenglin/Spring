@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<p>Welcome Folks</p>
+<button onclick="f1()">Click Here</button>
+<p id="abc"></p>
+<script>
+var fruit=["Grapes","Banana","Apple","Orange"];
+document.getElementById("abc").innerHTML=fruit;
+function f1()
+{
+  // fruit.sort();
+   fruit.reverse();
+   document.getElementById("abc").innerHTML=fruit;
+}
+</script>
+</body>
+</html>

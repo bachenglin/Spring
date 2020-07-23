@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<form action = "success.html" method = "post">
+Name: <input type = "text" name = "uname" required = "" pattern="[A-Za-z]+" title = "Enter only Characters"><br/><br/>
+Password: <input type = "password" name = "upass" required = "" pattern = "^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z\d].{7,}$" title = "Must contain atlease on Uper/Lower/Special character with specified length(7)"><br/><br/>
+Maild: <input type = "email" name = "umail" required = ""><br/><br/>
+Mobile Number: <input type = "text" name = "umobile" required = ""><br/><br/>
+<input type="submit" value="register"/>
+Country:
+<select name="uCountry">
+<option>India</option>
+<option>Uk</option>
+<option>China</option>
+</select>
+</form>
+
+</body>
+</html>

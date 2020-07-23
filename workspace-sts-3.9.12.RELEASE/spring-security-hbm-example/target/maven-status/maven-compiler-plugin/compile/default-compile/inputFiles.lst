@@ -1,0 +1,11 @@
+/Users/bachenglin/Documents/workspace-sts-3.9.12.RELEASE/spring-security-hbm-example/src/main/java/com/demo/config/SecurityWebApplicationInitializer.java
+/Users/bachenglin/Documents/workspace-sts-3.9.12.RELEASE/spring-security-hbm-example/src/main/java/com/demo/model/Authorities.java
+/Users/bachenglin/Documents/workspace-sts-3.9.12.RELEASE/spring-security-hbm-example/src/main/java/com/demo/config/WebConfig.java
+/Users/bachenglin/Documents/workspace-sts-3.9.12.RELEASE/spring-security-hbm-example/src/main/java/com/demo/dao/UserDetailsDao.java
+/Users/bachenglin/Documents/workspace-sts-3.9.12.RELEASE/spring-security-hbm-example/src/main/java/com/demo/service/UserDetailsServiceImp.java
+/Users/bachenglin/Documents/workspace-sts-3.9.12.RELEASE/spring-security-hbm-example/src/main/java/com/demo/config/WebSecurityConfig.java
+/Users/bachenglin/Documents/workspace-sts-3.9.12.RELEASE/spring-security-hbm-example/src/main/java/com/demo/config/MvcWebApplicationInitializer.java
+/Users/bachenglin/Documents/workspace-sts-3.9.12.RELEASE/spring-security-hbm-example/src/main/java/com/demo/config/AppConfig.java
+/Users/bachenglin/Documents/workspace-sts-3.9.12.RELEASE/spring-security-hbm-example/src/main/java/com/demo/dao/UserDetailsDaoImp.java
+/Users/bachenglin/Documents/workspace-sts-3.9.12.RELEASE/spring-security-hbm-example/src/main/java/com/demo/model/User.java
+/Users/bachenglin/Documents/workspace-sts-3.9.12.RELEASE/spring-security-hbm-example/src/main/java/com/demo/controller/UserContoller.java

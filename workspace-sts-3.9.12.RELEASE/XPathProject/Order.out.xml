@@ -1,0 +1,25 @@
+<html>
+<body>
+<h1>Order Details:</h1>
+	
+		Customer Name:
+		<b>Nanda</b>
+	
+<br>Order ID:
+		12345<br>Item Name:
+		iPhone 8<br>Item Price:
+		801
+	<br>Order ID:
+		12345<br>Item Name:
+		Ipad<br>Item Price:
+		900
+	<br>Order ID:
+		12345<br>Item Name:
+		Personal Development Book<br>Item Price:
+		13
+	<br>Order ID:
+		12345<br>Item Name:
+		Java Book<br>Item Price:
+		30
+</body>
+</html>

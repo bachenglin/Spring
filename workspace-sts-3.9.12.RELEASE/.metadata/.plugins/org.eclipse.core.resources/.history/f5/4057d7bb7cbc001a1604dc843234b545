@@ -1,0 +1,24 @@
+package com.demo;
+
+
+
+import java.time.Duration;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
+
+import reactor.core.publisher.Mono;
+
+@SpringBootTest
+class ApplicationTests {
+
+	@Test
+	void contextLoads() {
+	}
+
+	@Test
+	public void monoExample() throws InterruptedException {
+		Mono<String> stubMonoWithADelay = Mono.just("Nanda").delayElement(Duration.ofSeconds(2));
+	}
+
+}

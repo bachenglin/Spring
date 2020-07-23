@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<struts>
+<package name = "default" extends="struts-default">
+<action name="product" class="com.Register.x.RegisterAction" >
+<result name = "success"> /success.jsp</result>
+<result name = "failure"> /failure.jsp</result>
+</action>
+</package>
+</struts>

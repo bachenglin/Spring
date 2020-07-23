@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Built-By: bachenglin
+Build-Jdk: 11.0.7
+Implementation-Title: spring-boot-ldap-demo
+Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Vendor-Id: com.springboot.ldap
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-boot
+ -starter-parent/spring-boot-ldap-demo
+Created-By: Maven Integration for Eclipse
+

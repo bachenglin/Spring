@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html ng-app="app">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+
+<script type="text/javascript" src="fusioncharts.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
+<script type="text/javascript" src="angular-fusioncharts.min.js"></script>
+<script src="app.js"></script>
+</head>
+<body ng-controller="chartcntrl">
+<fusioncharts 
+    width="600" 
+    height="400"
+    type="column2d"
+    datasource="{{myDataSource}}"
+    ></fusioncharts>
+    
+    <fusioncharts 
+    width="600" 
+    height="400"
+    type="pie3d"
+    datasource="{{myDataSource}}"
+    ></fusioncharts>
+    
+    <div ng-controller="combicntrl">
+    	<fusioncharts 
+    width="600" 
+    height="400"
+    type="mscombi2d"
+    datasource="{{dataSource}}"
+    ></fusioncharts>
+    
+    <fusioncharts dataformat="jsonurl" 
+    datasource="data.json" 
+    type="column2d" 
+    width="600" height="400">
+    </fusioncharts>
+    </div>
+    
+    
+    
+</body>
+</html>
